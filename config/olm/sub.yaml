@@ -1,0 +1,10 @@
+apiVersion: operators.coreos.com/v1alpha1
+kind: Subscription
+metadata:
+  name: reference-addon
+spec:
+  channel: alpha
+  name: reference-addon
+  source: reference-addon
+  sourceNamespace: olm
+  installPlanApproval: Automatic

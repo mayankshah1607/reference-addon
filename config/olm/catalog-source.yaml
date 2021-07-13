@@ -7,4 +7,4 @@ spec:
   sourceType: grpc
   publisher: Red Hat
   displayName: MTSRE
-  image: quay.io/app-sre/reference-addon-index:main
+  image: quay.io/osd-addons/reference-addon-index:cf9650a
